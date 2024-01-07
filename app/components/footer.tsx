@@ -11,7 +11,13 @@ export default function Footer() {
   return (
     <Box component="footer" sx={{ backgroundColor: "#222935", color: "white" }}>
       <Container maxWidth="md">
-        <Grid container spacing={3} justifyContent={"center"} px={3} py={6}>
+        <Grid
+          container
+          mt={0}
+          spacing={3}
+          justifyContent={"center"}
+          px={3}
+          py={6}>
           <Grid item xs={12} sm={6}>
             <Box display={"flex"}>
               <DevicesOtherIcon sx={{ typography: { sm: "h4" }, mr: 1 }} />

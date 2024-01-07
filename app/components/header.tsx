@@ -162,7 +162,13 @@ export default function Header() {
 
   return (
     <Slide appear={false} direction="down" in={!trigger}>
-      <AppBar sx={{ backgroundColor: "#2b3445" }}>
+      <AppBar
+        sx={{
+          backgroundColor: "#2b3445",
+          position: "sticky",
+          top: "0",
+          height: "106px",
+        }}>
         <Box
           sx={{
             display: "flex",
