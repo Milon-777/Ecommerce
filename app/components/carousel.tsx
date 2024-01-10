@@ -80,6 +80,7 @@ export default function Carousel() {
                       src={monitorPic}
                       alt="SVG"
                       sizes="100vw"
+                      priority
                       style={{
                         maxWidth: "100%",
                         height: "auto",
