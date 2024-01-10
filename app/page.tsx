@@ -1,12 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Container from "@mui/material/Container";
-import HeroSection from "./components/heroSection";
+import Cards from "./components/cards";
+import Carousel from "./components/carousel";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <Carousel />
+      <Cards />
+      <div style={{ height: 200 }}></div>
     </>
   );
 }

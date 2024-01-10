@@ -9,7 +9,12 @@ import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
 
 export default function Footer() {
   return (
-    <Box component="footer" sx={{ backgroundColor: "#222935", color: "white" }}>
+    <Box
+      component="footer"
+      sx={{
+        backgroundColor: "#222935",
+        color: "white",
+      }}>
       <Container maxWidth="md">
         <Grid
           container
