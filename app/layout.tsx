@@ -26,10 +26,13 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <CssBaseline />
           <Header />
-          <Box component={"main"}>{children}</Box>
+          <Box component={"main"} sx={{ backgroundColor: "#f6f9fc" }}>
+            {children}
+          </Box>
           <Footer />
         </AppRouterCacheProvider>
       </body>
     </html>
   );
 }
+// "#f6f9fc
