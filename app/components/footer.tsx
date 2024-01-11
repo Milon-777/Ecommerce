@@ -1,6 +1,4 @@
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Unstable_Grid2";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Container from "@mui/material/Container";
@@ -18,13 +16,10 @@ export default function Footer() {
       <Container maxWidth="md">
         <Grid
           container
-          mt={0}
           spacing={3}
-          justifyContent={"center"}
-          px={3}
-          py={6}>
-          <Grid item xs={12} sm={6}>
-            <Box display={"flex"}>
+          sx={{ justifyContent: "center", px: 3, py: 6 }}>
+          <Grid xs={12} sm={6}>
+            <Box sx={{ display: "flex" }}>
               <DevicesOtherIcon sx={{ typography: { sm: "h4" }, mr: 1 }} />
 
               <Typography
@@ -42,12 +37,8 @@ export default function Footer() {
             </Typography>
           </Grid>
 
-          <Grid item xs={12} sm={6}>
-            <Typography
-              variant="h6"
-              gutterBottom
-              fontWeight={"fontWeightBold"}
-              color="inherit">
+          <Grid xs={12} sm={6}>
+            <Typography variant="h6" gutterBottom fontWeight={"fontWeightBold"}>
               About Us
             </Typography>
             <Typography gutterBottom>
@@ -89,12 +80,8 @@ export default function Footer() {
             </Typography>
           </Grid>
 
-          <Grid item xs={12} sm={6}>
-            <Typography
-              variant="h6"
-              gutterBottom
-              fontWeight={"fontWeightBold"}
-              color="inherit">
+          <Grid xs={12} sm={6}>
+            <Typography variant="h6" gutterBottom fontWeight={"fontWeightBold"}>
               Customer Care
             </Typography>
             <Typography gutterBottom>
@@ -136,7 +123,7 @@ export default function Footer() {
             </Typography>
           </Grid>
 
-          <Grid item xs={12} sm={6}>
+          <Grid xs={12} sm={6}>
             <Typography variant="h6" fontWeight={"fontWeightBold"} gutterBottom>
               Contact Us
             </Typography>
