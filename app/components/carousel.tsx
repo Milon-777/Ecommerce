@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Unstable_Grid2";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -42,8 +42,8 @@ export default function Carousel() {
           style={{ marginTop: "16px" }}>
           <SwiperSlide>
             <Box sx={{ width: "90%" }}>
-              <Grid container spacing={3} sx={{ mt: 0 }}>
-                <Grid item xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
+              <Grid container spacing={3}>
+                <Grid xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
                   <Box sx={{ pt: { sm: 2, md: 6 } }}>
                     <Typography
                       sx={{
@@ -74,7 +74,7 @@ export default function Carousel() {
                     </Button>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6} md={6}>
+                <Grid xs={12} sm={6} md={6}>
                   <Box>
                     <Image
                       src={monitorPic}
@@ -94,8 +94,8 @@ export default function Carousel() {
 
           <SwiperSlide>
             <Box sx={{ width: "90%" }}>
-              <Grid container spacing={3} sx={{ mt: 0 }}>
-                <Grid item xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
+              <Grid container spacing={3}>
+                <Grid xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
                   <Box sx={{ pt: { sm: 2, md: 6 } }}>
                     <Typography
                       sx={{
@@ -125,7 +125,7 @@ export default function Carousel() {
                     </Button>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6} md={6}>
+                <Grid xs={12} sm={6} md={6}>
                   <Box>
                     <Image
                       src={mousePic}
@@ -144,8 +144,8 @@ export default function Carousel() {
 
           <SwiperSlide>
             <Box sx={{ width: "90%" }}>
-              <Grid container spacing={3} sx={{ mt: 0 }}>
-                <Grid item xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
+              <Grid container spacing={3}>
+                <Grid xs={12} sm={6} md={6} sx={{ textAlign: "start" }}>
                   <Box sx={{ pt: { sm: 2, md: 6 } }}>
                     <Typography
                       sx={{
@@ -175,7 +175,7 @@ export default function Carousel() {
                     </Button>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6} md={6}>
+                <Grid xs={12} sm={6} md={6}>
                   <Box>
                     <Image
                       src={keyboardPic}
