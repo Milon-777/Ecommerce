@@ -14,15 +14,10 @@
     height: 16px;
     text-align: center;
     font-size: 16px;
-    color: #000;
     opacity: 1;
-    background: #cbcbcb;
+    background: #7d879c6b;
   }
 
 .swiper-pagination-bullet-active {
-  background: #222222;
-}
-
-.swiper-button-next, .swiper-button-prev  {
-  color: #222222
+  background: #2b3445;
 }

@@ -14,7 +14,7 @@ export default function Cards() {
       <Grid
         container
         spacing={3}
-        sx={{ textAlign: "center", alignItems: "center" }}>
+        sx={{ textAlign: "center", alignItems: "center", mb: 8 }}>
         <Grid xs={12} sm={6} md={3}>
           <Paper
             sx={{
@@ -30,7 +30,7 @@ export default function Cards() {
               <Typography variant="h6" color={"#2b3445"}>
                 Fast Delivery
               </Typography>
-              <Typography variant="body1" color={"#7d879c"}>
+              <Typography variant="body1" color={"#68738a"}>
                 Start from $10
               </Typography>
             </Box>
@@ -52,7 +52,7 @@ export default function Cards() {
               <Typography variant="h6" color={"#2b3445"}>
                 Money Guarantee
               </Typography>
-              <Typography variant="body1" color={"#7d879c"}>
+              <Typography variant="body1" color={"#68738a"}>
                 7 Days Back
               </Typography>
             </Box>
@@ -74,7 +74,7 @@ export default function Cards() {
               <Typography variant="h6" color={"#2b3445"}>
                 365 Days
               </Typography>
-              <Typography variant="body1" color={"#7d879c"}>
+              <Typography variant="body1" color={"#68738a"}>
                 For free return
               </Typography>
             </Box>
@@ -96,7 +96,7 @@ export default function Cards() {
               <Typography variant="h6" color={"#2b3445"}>
                 Payment
               </Typography>
-              <Typography variant="body1" color={"#7d879c"}>
+              <Typography variant="body1" color={"#68738a"}>
                 Secure system
               </Typography>
             </Box>

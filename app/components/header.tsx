@@ -16,6 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import MailIcon from "@mui/icons-material/Mail";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
@@ -214,7 +215,7 @@ export default function Header() {
               aria-label="show shopping cart"
               color="inherit">
               <Badge badgeContent={1} color="secondary">
-                <ShoppingBagIcon />
+                <ShoppingCartIcon />
               </Badge>
             </IconButton>
             <IconButton
